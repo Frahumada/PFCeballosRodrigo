@@ -20,4 +20,13 @@ nav div div div a:not(.enlaceInactivo):hover {
   background-color: #686868 !important;
 }
 
+.card:hover {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.01);
+  transition: all 0.5s ease-out;
+  box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.5);
+}
+
 /*# sourceMappingURL=style.css.map */
