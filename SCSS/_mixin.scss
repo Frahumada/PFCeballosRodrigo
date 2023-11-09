@@ -12,6 +12,7 @@
     text-transform: uppercase;
 }
 
+
 @mixin flexCenter {
     display: flex;
     justify-content: center;
@@ -20,6 +21,6 @@
 
 .enlaceInactivo {
     @include ancla;
-    color: grey;
+    color: $colorLinkInactivo;
     cursor:default;
 }
