@@ -7,10 +7,10 @@
   cursor: default;
 }
 
-nav div a {
-  /* animación al pasar el mouse */
+nav div div div a {
+  /* animación al pasar el mouse a todo elemento a que no tenga la clase enlaceInactivo*/
 }
-nav div a:hover {
+nav div div div a:not(.enlaceInactivo):hover {
   text-align: center;
   width: 100%;
   height: 100%;
