@@ -1,0 +1,25 @@
+//MIXIN
+
+@mixin parrafos {
+     font-size: 3rem;
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@mixin ancla {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlaceInactivo {
+    @include ancla;
+    color: grey;
+    cursor:default;
+}
